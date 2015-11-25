@@ -1,0 +1,34 @@
+The complete text of the GNU General Public Licenses are available in GPLv2.txt
+(version 2) and GPLv3.txt (version 3). They define the license terms of many 
+components within this distribution, but not the distribution as a whole.
+
+A README.BETA file is present and effective while the product is in 
+preproduction phase.
+
+#############################################################
+Sources for development releases are not distributed by mirrors to
+reduce the bandwidth and storage on these mirrors.
+
+For full information on how to get the source code, please read:
+http://en.opensuse.org/Source_code
+
+The latest source for the development tree is available from:
+http://download.opensuse.org/source/factory
+
+The latest source for releases is available from:
+http://download.opensuse.org/source/distribution/
+
+If you like to request the source for a specific release of openSUSE
+on DVD, send an e-mail to:
+	sourcedvd@suse.de 
+
+or write to:
+        SUSE Linux Products GmbH
+	openSUSE Team
+	Maxfeldstr. 5
+	D-90409 Nuernberg
+	Germany
+
+Please note that we charge $15 or 15 Euros to cover our costs of
+distribution.
+#############################################################
