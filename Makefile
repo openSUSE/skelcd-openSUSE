@@ -27,8 +27,11 @@ clean:
 license/TEMPLATE.pot: license/TEMPLATE
 	txt2po -P $< $@
 
-%.txt: %.po license/TEMPLATE.pot
+%.txt: %.po
 	po2txt --progress=none $< $@
+
+%.po: license/TEMPLATE.pot
+	msgmerge -U --previous $@ $< && touch $@
 
 .SUFFIXES = .po .txt
 .PHONY: clean
