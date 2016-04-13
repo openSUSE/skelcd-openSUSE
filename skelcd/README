@@ -13,7 +13,8 @@ For full information on how to get the source code, please read:
 http://en.opensuse.org/Source_code
 
 The latest source for the development tree is available from:
-http://download.opensuse.org/source/factory
+http://download.opensuse.org/tumbleweed/repo/src-oss/ and 
+http://download.opensuse.org/tumbleweed/repo/src-non-oss/
 
 The latest source for releases is available from:
 http://download.opensuse.org/source/distribution/
