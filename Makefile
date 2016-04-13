@@ -10,8 +10,10 @@ LINGUAS = \
 	pl \
 	pt_BR \
 	ru \
+	uk \
 	zh_CN \
 	zh_TW
+# ko not at 100%
 
 LICENSES := $(LINGUAS:%=license/license.%.txt)
 
