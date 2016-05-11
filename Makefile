@@ -1,5 +1,6 @@
 PO := $(wildcard license/license.*.po)
 LICENSES := $(PO:.po=.txt)
+VERSION=FIXME
 
 all: skelcd/license.tar.gz
 
@@ -14,6 +15,7 @@ license/TEMPLATE.pot: license/TEMPLATE
 
 %.txt: %.po
 	po2txt --progress=none --threshold=100 $< $@
+	@if [ -e $@ ]; then sed -i -e"s@#VERSION#@$(VERSION)@g" $@; fi
 
 %.po: license/TEMPLATE.pot
 	msgmerge -U --previous $@ $< && touch $@
