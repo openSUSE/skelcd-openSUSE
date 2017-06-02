@@ -152,7 +152,7 @@ msgstr ""
 
 #: license/TEMPLATE:106
 msgid ""
-"Copyright © 2008-2016 The openSUSE Project. All rights\n"
+"Copyright © 2008-2017 The openSUSE Project. All rights\n"
 "reserved. \"SUSE\" and \"openSUSE\" are registered trademarks of SUSE LLC,\n"
 "or its affiliates, which founded, sponsors, and is designated by, The "
 "openSUSE\n"
