@@ -5,7 +5,8 @@ VERSION=FIXME
 all: skelcd/license.tar.gz
 
 skelcd/license.tar.gz: $(LICENSES) | license/TEMPLATE
-	cd license && tar --owner=root --group=root -czf ../$@ no-acceptance-needed *.txt
+	[ -z "$$SOURCE_DATE_EPOCH" ] || rbopts="--mtime @$$SOURCE_DATE_EPOCH --format=gnu" ; \
+	cd license && tar $$rbopts --owner=root --group=root -c no-acceptance-needed *.txt | gzip -n9 > ../$@
 
 clean:
 	rm -f skelcd/license.tar.gz $(LICENSES)
