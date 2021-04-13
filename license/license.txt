@@ -97,7 +97,7 @@ is subject to the restrictions in FAR 52.227-14 (Dec 2007)
 Alternate III (Dec 2007), FAR  52.227-19 (Dec 2007), or DFARS
 252.227-7013(b)(3) (Nov 1995), or applicable successor clauses.
 
-Copyright © 2008-2020 The openSUSE Project. All rights
+Copyright © 2008-2021 The openSUSE Project. All rights
 reserved. "SUSE" and "openSUSE" are registered trademarks of SUSE LLC,
 or its affiliates, which founded, sponsors, and is designated by, The openSUSE
 Project. "Linux" is a registered trademark of Linus Torvalds. All
