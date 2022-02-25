@@ -9,7 +9,7 @@ version = 15.4
 arch = x86_64
 family = openSUSE Leap
 name = openSUSE Leap 15.4
-version = 15.3
+version = 15.4
 platforms = x86_64,xen
 
 [images-x86_64]
