@@ -3,13 +3,13 @@ version = 1.0
 
 [release]
 name = openSUSE Leap
-version = 16.0
+version = 16.1
 
 [general]
 arch = x86_64
 family = openSUSE Leap
-name = openSUSE Leap 16.0
-version = 16.0
+name = openSUSE Leap 16.1
+version = 16.1
 platforms = x86_64,xen
 
 [images-x86_64]
